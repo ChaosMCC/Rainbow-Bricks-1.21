@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "got_sticks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "got_sticks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmod:blue_stone_bricks",
+      "tutorialmod:black_stone_bricks",
+      "tutorialmod:brown_stone_bricks",
+      "tutorialmod:cyan_stone_bricks",
+      "tutorialmod:green_stone_bricks",
+      "tutorialmod:light_blue_stone_bricks",
+      "tutorialmod:light_gray_stone_bricks",
+      "tutorialmod:lime_stone_bricks",
+      "tutorialmod:magenta_stone_bricks",
+      "tutorialmod:orange_stone_bricks",
+      "tutorialmod:pink_stone_bricks",
+      "tutorialmod:purple_stone_bricks",
+      "tutorialmod:red_stone_bricks",
+      "tutorialmod:white_stone_bricks",
+      "tutorialmod:yellow_stone_bricks"
+    ]
+  },
+  "sends_telemetry_event": true
+}

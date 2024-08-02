@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tutorialmod:block/light_gray_stone_bricks"
+  }
+
+}
